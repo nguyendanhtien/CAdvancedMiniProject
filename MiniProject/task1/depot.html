@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>DEPOT</title>
+  </head>
+  <body>
+    <div class="button">
+      <input type='button' class="box getPlace" value="Get Random Data" onclick="getRandomData()"></input><br>
+      <input type="button" class="box downloadDemands" id="dwn-dd" value="Download file data points"/><br>
+      <input type='button' class="box display" value="Display all Routes" onclick="displayPath()"></input><br>
+      <input type="file" class="box upload" id="upload" value="Upload file output"/><br>
+    </div>
+    <div id="entry" class="canvas"><h4 class="title">Entry</h4>
+      <canvas
+      id="myCanvas"
+      width="1260"
+      height="660"
+      style="border: 1px solid #d3d3d3"
+      >
+      Your browser does not support the HTML5 canvas tag.</canvas
+      >
+    </div>
+    
+
+    <script src="sript.js">
+      
+    </script>
+  </body>
+</html>
